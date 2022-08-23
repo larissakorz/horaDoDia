@@ -8,7 +8,7 @@ function carregar(){
   let hora = data.getHours()
   let min = data.getMinutes()
   let seg = data.getSeconds()
-  // let hora = 15
+
   mensagem.innerHTML = `${dia}/${mes+1}/${ano} - ${hora}:${min}:${seg}`
   if(hora >= 25){
     foto.src = 'erro.jpg'
